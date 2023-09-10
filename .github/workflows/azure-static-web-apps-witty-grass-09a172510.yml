@@ -20,8 +20,8 @@ jobs:
           submodules: true
       - name: Update Secret Value in HTML
         run: |
-         sed -i "s/\${secret-value}/${{ secrets.SECRET_VALUE }}/g" index.html
-
+         sed -i 's/${secret-value}/***REPLACE_WITH_SECRET_VALUE***/g' index.html
+         
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
