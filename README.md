@@ -1,4 +1,4 @@
-# helloworld-to-GithubActions-using-Azure
+# HelloWorld-to-GithubActions-using-Azure
 This repo contains a basic hello world to github actions (CI/CD pipeline) using azure to deploy a web app.
 
 Also a secret key is passed by the pipeline to index.html `${secret-value}`,
