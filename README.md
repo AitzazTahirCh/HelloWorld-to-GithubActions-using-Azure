@@ -10,3 +10,5 @@ You can see the application deployed at url: https://witty-grass-09a172510.3.azu
 
 ![image](https://github.com/AitzazTahirCh/helloworld-to-GithubActions-using-Azure/assets/72460814/a7f6467e-7d23-4d27-9705-61ba9450b8c6)
 ![image](https://github.com/AitzazTahirCh/helloworld-to-GithubActions-using-Azure/assets/72460814/3c353154-e7e0-4bb2-8f18-a7a84667f5ce)
+![image](https://github.com/AitzazTahirCh/HelloWorld-to-GithubActions-using-Azure/assets/72460814/171d57b2-e100-428c-bed2-f6a2b1f8b5fe)
+
