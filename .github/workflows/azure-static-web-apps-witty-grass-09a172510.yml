@@ -18,6 +18,10 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: true
+      - name: Update Secret Value in HTML
+        run: |
+         sed -i "s/\${secret-value}/${{ secrets.SECRET_VALUE }}/g" index.html
+
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
