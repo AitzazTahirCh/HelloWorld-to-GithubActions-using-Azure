@@ -20,7 +20,7 @@ jobs:
           submodules: true
       - name: Update Secret Value in HTML
         run: |
-         sed -i 's/${secret-value}/"I'm a secret key value"/g' index.html
+         sed -i 's/${secret-value}/*I'm a secret key value*/g' index.html
          
       - name: Build And Deploy
         id: builddeploy
